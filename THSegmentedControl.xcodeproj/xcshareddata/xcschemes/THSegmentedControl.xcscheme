@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5B713BBE1D82789E00F9F4F8"
-               BuildableName = "SegmentedControlFramework.framework"
-               BlueprintName = "SegmentedControlFramework"
-               ReferencedContainer = "container:SegmentedControlFramework.xcodeproj">
+               BlueprintIdentifier = "5B713C041D827EDC00F9F4F8"
+               BuildableName = "THSegmentedControl.framework"
+               BlueprintName = "THSegmentedControl"
+               ReferencedContainer = "container:THSegmentedControl.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5B713BBE1D82789E00F9F4F8"
-            BuildableName = "SegmentedControlFramework.framework"
-            BlueprintName = "SegmentedControlFramework"
-            ReferencedContainer = "container:SegmentedControlFramework.xcodeproj">
+            BlueprintIdentifier = "5B713C041D827EDC00F9F4F8"
+            BuildableName = "THSegmentedControl.framework"
+            BlueprintName = "THSegmentedControl"
+            ReferencedContainer = "container:THSegmentedControl.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5B713BBE1D82789E00F9F4F8"
-            BuildableName = "SegmentedControlFramework.framework"
-            BlueprintName = "SegmentedControlFramework"
-            ReferencedContainer = "container:SegmentedControlFramework.xcodeproj">
+            BlueprintIdentifier = "5B713C041D827EDC00F9F4F8"
+            BuildableName = "THSegmentedControl.framework"
+            BlueprintName = "THSegmentedControl"
+            ReferencedContainer = "container:THSegmentedControl.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

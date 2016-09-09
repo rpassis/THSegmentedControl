@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B713BC31D82789E00F9F4F8 /* SegmentedControlFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B713BC21D82789E00F9F4F8 /* SegmentedControlFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B713BCC1D8278C400F9F4F8 /* THSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B713BCA1D8278C400F9F4F8 /* THSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B713BCD1D8278C400F9F4F8 /* THSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B713BCB1D8278C400F9F4F8 /* THSegmentedControl.m */; };
+		5B713C081D827EDC00F9F4F8 /* THSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B713C071D827EDC00F9F4F8 /* THSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B713C101D827EF100F9F4F8 /* THSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B713C0E1D827EF100F9F4F8 /* THSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B713C111D827EF100F9F4F8 /* THSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B713C0F1D827EF100F9F4F8 /* THSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B713BBF1D82789E00F9F4F8 /* SegmentedControlFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SegmentedControlFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B713BC21D82789E00F9F4F8 /* SegmentedControlFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentedControlFramework.h; sourceTree = "<group>"; };
-		5B713BC41D82789E00F9F4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B713BCA1D8278C400F9F4F8 /* THSegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THSegmentedControl.h; sourceTree = "<group>"; };
-		5B713BCB1D8278C400F9F4F8 /* THSegmentedControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THSegmentedControl.m; sourceTree = "<group>"; };
+		5B713C051D827EDC00F9F4F8 /* THSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = THSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B713C071D827EDC00F9F4F8 /* THSegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THSegmentedControl.h; sourceTree = "<group>"; };
+		5B713C091D827EDC00F9F4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B713C0E1D827EF100F9F4F8 /* THSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSegmentedControl.h; sourceTree = "<group>"; };
+		5B713C0F1D827EF100F9F4F8 /* THSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B713BBB1D82789E00F9F4F8 /* Frameworks */ = {
+		5B713C011D827EDC00F9F4F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,9 +34,8 @@
 		5B713BB51D82789E00F9F4F8 = {
 			isa = PBXGroup;
 			children = (
-				5B713BCA1D8278C400F9F4F8 /* THSegmentedControl.h */,
-				5B713BCB1D8278C400F9F4F8 /* THSegmentedControl.m */,
-				5B713BC11D82789E00F9F4F8 /* SegmentedControlFramework */,
+				5B713C0D1D827EF100F9F4F8 /* Source */,
+				5B713C061D827EDC00F9F4F8 /* THSegmentedControl */,
 				5B713BC01D82789E00F9F4F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,51 +43,60 @@
 		5B713BC01D82789E00F9F4F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B713BBF1D82789E00F9F4F8 /* SegmentedControlFramework.framework */,
+				5B713C051D827EDC00F9F4F8 /* THSegmentedControl.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B713BC11D82789E00F9F4F8 /* SegmentedControlFramework */ = {
+		5B713C061D827EDC00F9F4F8 /* THSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				5B713BC21D82789E00F9F4F8 /* SegmentedControlFramework.h */,
-				5B713BC41D82789E00F9F4F8 /* Info.plist */,
+				5B713C071D827EDC00F9F4F8 /* THSegmentedControl.h */,
+				5B713C091D827EDC00F9F4F8 /* Info.plist */,
 			);
-			path = SegmentedControlFramework;
+			path = THSegmentedControl;
+			sourceTree = "<group>";
+		};
+		5B713C0D1D827EF100F9F4F8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5B713C0E1D827EF100F9F4F8 /* THSegmentedControl.h */,
+				5B713C0F1D827EF100F9F4F8 /* THSegmentedControl.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5B713BBC1D82789E00F9F4F8 /* Headers */ = {
+		5B713C021D827EDC00F9F4F8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B713BC31D82789E00F9F4F8 /* SegmentedControlFramework.h in Headers */,
-				5B713BCC1D8278C400F9F4F8 /* THSegmentedControl.h in Headers */,
+				5B713C081D827EDC00F9F4F8 /* THSegmentedControl.h in Headers */,
+				5B713C101D827EF100F9F4F8 /* THSegmentedControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5B713BBE1D82789E00F9F4F8 /* SegmentedControlFramework */ = {
+		5B713C041D827EDC00F9F4F8 /* THSegmentedControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B713BC71D82789E00F9F4F8 /* Build configuration list for PBXNativeTarget "SegmentedControlFramework" */;
+			buildConfigurationList = 5B713C0A1D827EDC00F9F4F8 /* Build configuration list for PBXNativeTarget "THSegmentedControl" */;
 			buildPhases = (
-				5B713BBA1D82789E00F9F4F8 /* Sources */,
-				5B713BBB1D82789E00F9F4F8 /* Frameworks */,
-				5B713BBC1D82789E00F9F4F8 /* Headers */,
-				5B713BBD1D82789E00F9F4F8 /* Resources */,
+				5B713C001D827EDC00F9F4F8 /* Sources */,
+				5B713C011D827EDC00F9F4F8 /* Frameworks */,
+				5B713C021D827EDC00F9F4F8 /* Headers */,
+				5B713C031D827EDC00F9F4F8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SegmentedControlFramework;
-			productName = SegmentedControlFramework;
-			productReference = 5B713BBF1D82789E00F9F4F8 /* SegmentedControlFramework.framework */;
+			name = THSegmentedControl;
+			productName = THSegmentedControl;
+			productReference = 5B713C051D827EDC00F9F4F8 /* THSegmentedControl.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -100,12 +108,12 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Freshmob Pty Ltd";
 				TargetAttributes = {
-					5B713BBE1D82789E00F9F4F8 = {
+					5B713C041D827EDC00F9F4F8 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 5B713BB91D82789E00F9F4F8 /* Build configuration list for PBXProject "SegmentedControlFramework" */;
+			buildConfigurationList = 5B713BB91D82789E00F9F4F8 /* Build configuration list for PBXProject "THSegmentedControl" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -117,13 +125,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B713BBE1D82789E00F9F4F8 /* SegmentedControlFramework */,
+				5B713C041D827EDC00F9F4F8 /* THSegmentedControl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5B713BBD1D82789E00F9F4F8 /* Resources */ = {
+		5B713C031D827EDC00F9F4F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -133,11 +141,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5B713BBA1D82789E00F9F4F8 /* Sources */ = {
+		5B713C001D827EDC00F9F4F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B713BCD1D8278C400F9F4F8 /* THSegmentedControl.m in Sources */,
+				5B713C111D827EF100F9F4F8 /* THSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,33 +243,33 @@
 			};
 			name = Release;
 		};
-		5B713BC81D82789E00F9F4F8 /* Debug */ = {
+		5B713C0B1D827EDC00F9F4F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SegmentedControlFramework/Info.plist;
+				INFOPLIST_FILE = THSegmentedControl/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.freshmob.SegmentedControlFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.freshmob.THSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		5B713BC91D82789E00F9F4F8 /* Release */ = {
+		5B713C0C1D827EDC00F9F4F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SegmentedControlFramework/Info.plist;
+				INFOPLIST_FILE = THSegmentedControl/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.freshmob.SegmentedControlFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.freshmob.THSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -270,7 +278,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B713BB91D82789E00F9F4F8 /* Build configuration list for PBXProject "SegmentedControlFramework" */ = {
+		5B713BB91D82789E00F9F4F8 /* Build configuration list for PBXProject "THSegmentedControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B713BC51D82789E00F9F4F8 /* Debug */,
@@ -279,11 +287,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B713BC71D82789E00F9F4F8 /* Build configuration list for PBXNativeTarget "SegmentedControlFramework" */ = {
+		5B713C0A1D827EDC00F9F4F8 /* Build configuration list for PBXNativeTarget "THSegmentedControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B713BC81D82789E00F9F4F8 /* Debug */,
-				5B713BC91D82789E00F9F4F8 /* Release */,
+				5B713C0B1D827EDC00F9F4F8 /* Debug */,
+				5B713C0C1D827EDC00F9F4F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
