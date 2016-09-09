@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5B713C081D827EDC00F9F4F8 /* THSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B713C071D827EDC00F9F4F8 /* THSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B713C101D827EF100F9F4F8 /* THSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B713C0E1D827EF100F9F4F8 /* THSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B713C111D827EF100F9F4F8 /* THSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B713C0F1D827EF100F9F4F8 /* THSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
@@ -16,7 +15,6 @@
 		5B713C051D827EDC00F9F4F8 /* THSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = THSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B713C071D827EDC00F9F4F8 /* THSegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THSegmentedControl.h; sourceTree = "<group>"; };
 		5B713C091D827EDC00F9F4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B713C0E1D827EF100F9F4F8 /* THSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSegmentedControl.h; sourceTree = "<group>"; };
 		5B713C0F1D827EF100F9F4F8 /* THSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +58,6 @@
 		5B713C0D1D827EF100F9F4F8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				5B713C0E1D827EF100F9F4F8 /* THSegmentedControl.h */,
 				5B713C0F1D827EF100F9F4F8 /* THSegmentedControl.m */,
 			);
 			path = Source;
@@ -74,7 +71,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B713C081D827EDC00F9F4F8 /* THSegmentedControl.h in Headers */,
-				5B713C101D827EF100F9F4F8 /* THSegmentedControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
